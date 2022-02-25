@@ -1,96 +1,101 @@
 <!DOCTYPE html>
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Hello">
+  <meta name="author" content="Ericdavin">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+</head>
 <html lang="en">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <style>
-      html,
-      body,
-      div,
-      span,
+      a,
+      abbr,
+      acronym,
+      address,
       applet,
-      object,
-      iframe,
+      article,
+      aside,
+      audio,
+      b,
+      big,
+      blockquote,
+      body,
+      canvas,
+      caption,
+      center,
+      cite,
+      code,
+      dd,
+      del,
+      details,
+      dfn,
+      div,
+      dl,
+      dt,
+      em,
+      embed,
+      fieldset,
+      figcaption,
+      figure,
+      footer,
+      form,
       h1,
       h2,
       h3,
       h4,
       h5,
       h6,
-      p,
-      blockquote,
-      pre,
-      a,
-      abbr,
-      acronym,
-      address,
-      big,
-      cite,
-      code,
-      del,
-      dfn,
-      em,
+      header,
+      hgroup,
+      html,
+      i,
+      iframe,
       img,
       ins,
       kbd,
+      label,
+      legend,
+      li,
+      mark,
+      menu,
+      nav,
+      object,
+      ol,
+      output,
+      p,
+      pre,
       q,
+      ruby,
       s,
       samp,
+      section,
       small,
+      span,
       strike,
       strong,
       sub,
-      sup,
-      tt,
-      var,
-      b,
-      u,
-      i,
-      center,
-      dl,
-      dt,
-      dd,
-      ol,
-      ul,
-      li,
-      fieldset,
-      form,
-      label,
-      legend,
-      table,
-      caption,
-      tbody,
-      tfoot,
-      thead,
-      tr,
-      th,
-      td,
-      article,
-      aside,
-      canvas,
-      details,
-      embed,
-      figure,
-      figcaption,
-      footer,
-      header,
-      hgroup,
-      menu,
-      nav,
-      output,
-      ruby,
-      section,
       summary,
+      sup,
+      table,
+      tbody,
+      td,
+      tfoot,
+      th,
+      thead,
       time,
-      mark,
-      audio,
+      tr,
+      tt,
+      u,
+      ul,
+      var,
       video {
         margin: 0;
         padding: 0;
         border: 0;
         font-size: 100%;
         font: inherit;
-        vertical-align: baseline;
+        vertical-align: baseline
       }
 
       article,
@@ -104,34 +109,34 @@
       menu,
       nav,
       section {
-        display: block;
+        display: block
       }
 
       body {
-        line-height: 1;
+        line-height: 1
       }
 
       ol,
       ul {
-        list-style: none;
+        list-style: none
       }
 
       blockquote,
       q {
-        quotes: none;
+        quotes: none
       }
 
-      blockquote:before,
       blockquote:after,
-      q:before,
-      q:after {
+      blockquote:before,
+      q:after,
+      q:before {
         content: '';
-        content: none;
+        content: none
       }
 
       table {
         border-collapse: collapse;
-        border-spacing: 0;
+        border-spacing: 0
       }
 
       body {
@@ -148,8 +153,8 @@
         padding: 0
       }
 
-      input[type="text"],
-      input[type="email"],
+      input[type=email],
+      input[type=text],
       select,
       textarea {
         -moz-appearance: none;
@@ -159,18 +164,18 @@
       }
 
       *,
-      *:before,
-      *:after {
-        box-sizing: border-box;
+      :after,
+      :before {
+        box-sizing: border-box
       }
 
       body {
-        line-height: 1.0;
+        line-height: 1;
         min-height: var(--viewport-height);
         min-width: 320px;
         overflow-x: hidden;
         word-wrap: break-word;
-        background-color: #2B2B2B;
+        background-color: #2b2b2b
       }
 
       :root {
@@ -178,60 +183,60 @@
         --site-language-alignment: left;
         --site-language-direction: ltr;
         --site-language-flex-alignment: flex-start;
-        --viewport-height: 100vh;
+        --viewport-height: 100vh
       }
 
       html {
-        font-size: 18pt;
+        font-size: 18pt
       }
 
       u {
-        text-decoration: underline;
+        text-decoration: underline
       }
 
       strong {
         color: inherit;
-        font-weight: bolder;
+        font-weight: bolder
       }
 
       em {
-        font-style: italic;
+        font-style: italic
       }
 
       code {
-        background-color: rgba(144, 144, 144, 0.25);
-        border-radius: 0.25em;
+        background-color: rgba(144, 144, 144, .25);
+        border-radius: .25em;
         font-family: 'Lucida Console', 'Courier New', monospace;
-        font-size: 0.9em;
-        font-weight: normal;
+        font-size: .9em;
+        font-weight: 400;
         letter-spacing: 0;
-        margin: 0 0.25em;
-        padding: 0.25em 0.5em;
-        text-indent: 0;
+        margin: 0 .25em;
+        padding: .25em .5em;
+        text-indent: 0
       }
 
       mark {
-        background-color: rgba(144, 144, 144, 0.25);
+        background-color: rgba(144, 144, 144, .25)
       }
 
       s {
-        text-decoration: line-through;
+        text-decoration: line-through
       }
 
       sub {
         font-size: smaller;
-        vertical-align: sub;
+        vertical-align: sub
       }
 
       sup {
         font-size: smaller;
-        vertical-align: super;
+        vertical-align: super
       }
 
       a {
         color: inherit;
         text-decoration: underline;
-        transition: color 0.25s ease;
+        transition: color .25s ease
       }
 
       #wrapper {
@@ -243,7 +248,7 @@
         min-height: var(--viewport-height);
         overflow: hidden;
         position: relative;
-        z-index: 2;
+        z-index: 2
       }
 
       #main {
@@ -260,7 +265,7 @@
         --flex-alignment: center;
         --width: 40rem;
         --padding-horizontal: 3rem;
-        --padding-vertical: 3rem;
+        --padding-vertical: 3rem
       }
 
       #main>.inner {
@@ -270,38 +275,38 @@
         width: var(--width);
         z-index: 1;
         --spacing: 0.75rem;
-        padding: var(--padding-vertical) var(--padding-horizontal);
+        padding: var(--padding-vertical) var(--padding-horizontal)
       }
 
       #main>.inner>* {
         margin-top: var(--spacing);
-        margin-bottom: var(--spacing);
+        margin-bottom: var(--spacing)
       }
 
-      #main>.inner> :first-child {
-        margin-top: 0 !important;
+      #main>.inner>:first-child {
+        margin-top: 0 !important
       }
 
-      #main>.inner> :last-child {
-        margin-bottom: 0 !important;
+      #main>.inner>:last-child {
+        margin-bottom: 0 !important
       }
 
       #main>.inner>.full {
         margin-left: calc(-3rem);
-        max-width: calc(100% + 6rem + 0.4725px);
-        width: calc(100% + 6rem + 0.4725px);
+        max-width: calc(100% + 6rem + .4725px);
+        width: calc(100% + 6rem + .4725px)
       }
 
       #main>.inner>.full:first-child {
         border-top-left-radius: inherit;
         border-top-right-radius: inherit;
-        margin-top: -3rem !important;
+        margin-top: -3rem !important
       }
 
       #main>.inner>.full:last-child {
         border-bottom-left-radius: inherit;
         border-bottom-right-radius: inherit;
-        margin-bottom: -3rem !important;
+        margin-bottom: -3rem !important
       }
 
       #main>.inner>.full.screen {
@@ -311,25 +316,25 @@
         width: 100vw;
         left: 50%;
         margin-left: -50vw;
-        right: auto;
+        right: auto
       }
 
       body.is-instant #main,
       body.is-instant #main>.inner>*,
       body.is-instant #main>.inner>section>* {
-        transition: none !important;
+        transition: none !important
       }
 
       body.is-instant:after {
         display: none !important;
-        transition: none !important;
+        transition: none !important
       }
 
       h1,
       h2,
       h3,
       p {
-        direction: var(--site-language-direction);
+        direction: var(--site-language-direction)
       }
 
       h1 br+br,
@@ -337,7 +342,7 @@
       h3 br+br,
       p br+br {
         display: block;
-        content: ' ';
+        content: ' '
       }
 
       h1 .li,
@@ -345,28 +350,28 @@
       h3 .li,
       p .li {
         display: list-item;
-        margin: 0.75em 0 0 1em;
-        padding-left: 0.5em;
+        margin: .75em 0 0 1em;
+        padding-left: .5em
       }
 
       #text01 br+br {
-        margin-top: 0.9rem;
+        margin-top: .9rem
       }
 
       #text01 {
-        color: #FFFFFF;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        color: #fff;
+        font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 1em;
         line-height: 1.5;
-        font-weight: 400;
+        font-weight: 400
       }
 
       #text01 a {
-        text-decoration: underline;
+        text-decoration: underline
       }
 
       #text01 a:hover {
-        text-decoration: none;
+        text-decoration: none
       }
 
       .buttons {
@@ -374,11 +379,11 @@
         display: flex;
         justify-content: var(--flex-alignment);
         letter-spacing: 0;
-        padding: 0;
+        padding: 0
       }
 
       .buttons li {
-        max-width: 100%;
+        max-width: 100%
       }
 
       .buttons li a {
@@ -388,13 +393,13 @@
         text-align: center;
         text-decoration: none;
         vertical-align: middle;
-        white-space: nowrap;
+        white-space: nowrap
       }
 
       #buttons01 {
-        gap: 0.75rem;
+        gap: .75rem;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap
       }
 
       #buttons01 li a {
@@ -404,41 +409,41 @@
         line-height: 2.875rem;
         padding: 0 1.4375rem;
         vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 1em;
         font-weight: 400;
         border-radius: 1.5rem;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        transition: color .25s ease, background-color .25s ease, border-color .25s ease
       }
 
       #buttons01 li a svg {
         display: block;
-        fill: #000000;
+        fill: #000;
         height: 100%;
         min-width: 16px;
         width: 1em;
-        margin-left: -0.125em;
-        margin-right: calc(0.5em + 0rem);
-        transition: fill 0.25s ease;
+        margin-left: -.125em;
+        margin-right: calc(.5em + 0rem);
+        transition: fill .25s ease
       }
 
       #buttons01 li a .label {
-        direction: var(--site-language-direction);
+        direction: var(--site-language-direction)
       }
 
       #buttons01 .button {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: #fff;
+        color: #000
       }
 
       #buttons01 .button:hover {
-        background-color: #BDBDBD !important;
+        background-color: #bdbdbd !important
       }
 
       #buttons02 {
-        gap: 0.75rem;
+        gap: .75rem;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap
       }
 
       #buttons02 li a {
@@ -448,41 +453,41 @@
         line-height: 2.875rem;
         padding: 0 1.4375rem;
         vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 1em;
         font-weight: 400;
         border-radius: 1.5rem;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        transition: color .25s ease, background-color .25s ease, border-color .25s ease
       }
 
       #buttons02 li a svg {
         display: block;
-        fill: #000000;
+        fill: #000;
         height: 100%;
         min-width: 16px;
         width: 1em;
-        margin-left: -0.125em;
-        margin-right: calc(0.5em + 0rem);
-        transition: fill 0.25s ease;
+        margin-left: -.125em;
+        margin-right: calc(.5em + 0rem);
+        transition: fill .25s ease
       }
 
       #buttons02 li a .label {
-        direction: var(--site-language-direction);
+        direction: var(--site-language-direction)
       }
 
       #buttons02 .button {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: #fff;
+        color: #000
       }
 
       #buttons02 .button:hover {
-        background-color: #BDBDBD !important;
+        background-color: #bdbdbd !important
       }
 
       #buttons03 {
-        gap: 0.75rem;
+        gap: .75rem;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap
       }
 
       #buttons03 li a {
@@ -492,41 +497,41 @@
         line-height: 2.875rem;
         padding: 0 1.4375rem;
         vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 1em;
         font-weight: 400;
         border-radius: 1.5rem;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        transition: color .25s ease, background-color .25s ease, border-color .25s ease
       }
 
       #buttons03 li a svg {
         display: block;
-        fill: #000000;
+        fill: #000;
         height: 100%;
         min-width: 16px;
         width: 1em;
-        margin-left: -0.125em;
-        margin-right: calc(0.5em + 0rem);
-        transition: fill 0.25s ease;
+        margin-left: -.125em;
+        margin-right: calc(.5em + 0rem);
+        transition: fill .25s ease
       }
 
       #buttons03 li a .label {
-        direction: var(--site-language-direction);
+        direction: var(--site-language-direction)
       }
 
       #buttons03 .button {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: #fff;
+        color: #000
       }
 
       #buttons03 .button:hover {
-        background-color: #BDBDBD !important;
+        background-color: #bdbdbd !important
       }
 
       #buttons05 {
-        gap: 0.75rem;
+        gap: .75rem;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap
       }
 
       #buttons05 li a {
@@ -536,41 +541,41 @@
         line-height: 2.875rem;
         padding: 0 1.4375rem;
         vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 1em;
         font-weight: 400;
         border-radius: 1.5rem;
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        transition: color .25s ease, background-color .25s ease, border-color .25s ease
       }
 
       #buttons05 li a svg {
         display: block;
-        fill: #000000;
+        fill: #000;
         height: 100%;
         min-width: 16px;
         width: 1em;
-        margin-left: -0.125em;
-        margin-right: calc(0.5em + 0rem);
-        transition: fill 0.25s ease;
+        margin-left: -.125em;
+        margin-right: calc(.5em + 0rem);
+        transition: fill .25s ease
       }
 
       #buttons05 li a .label {
-        direction: var(--site-language-direction);
+        direction: var(--site-language-direction)
       }
 
       #buttons05 .button {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: #fff;
+        color: #000
       }
 
       #buttons05 .button:hover {
-        background-color: #BDBDBD !important;
+        background-color: #bdbdbd !important
       }
 
       #buttons04 {
-        gap: 0.75rem;
+        gap: .75rem;
         flex-direction: row;
-        flex-wrap: wrap;
+        flex-wrap: wrap
       }
 
       #buttons04 li a {
@@ -580,28 +585,28 @@
         line-height: 2.875rem;
         padding: 0 1.4375rem;
         vertical-align: middle;
-        font-family: '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Helvetica Neue', 'Arial', sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+        font-family: '-apple-system', BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
         font-size: 1em;
         font-weight: 400;
         border-radius: 1.5rem;
         direction: var(--site-language-direction);
-        transition: color 0.25s ease, background-color 0.25s ease, border-color 0.25s ease;
+        transition: color .25s ease, background-color .25s ease, border-color .25s ease
       }
 
       #buttons04 .button {
-        background-color: #FFFFFF;
-        color: #000000;
+        background-color: #fff;
+        color: #000
       }
 
       #buttons04 .button:hover {
-        background-color: #BDBDBD !important;
+        background-color: #bdbdbd !important
       }
 
       .icc-credits {
         display: block;
         opacity: 1 !important;
         position: relative;
-        transition-delay: 0s !important;
+        transition-delay: 0s !important
       }
 
       .icc-credits span {
@@ -614,34 +619,34 @@
         line-height: 1;
         position: relative;
         text-decoration: none;
-        width: auto;
+        width: auto
       }
 
       .icc-credits span a {
         display: inline-block;
-        padding: 0.5em 0.375em;
+        padding: .5em .375em;
         position: relative;
         text-decoration: none;
-        transition: color 0.25s ease, transform 0.25s ease;
-        z-index: 1;
+        transition: color .25s ease, transform .25s ease;
+        z-index: 1
       }
 
       .icc-credits span a:before {
         content: '( ';
         opacity: 1;
-        transition: opacity 0.25s ease;
+        transition: opacity .25s ease
       }
 
       .icc-credits span a:after {
         content: ' )';
         opacity: 1;
-        transition: opacity 0.25s ease;
+        transition: opacity .25s ease
       }
 
       .icc-credits span::after {
-        background-image: linear-gradient(30deg, #A464A1 15%, #3B5DAD 85%);
+        background-image: linear-gradient(30deg, #a464a1 15%, #3b5dad 85%);
         border-radius: inherit;
-        box-shadow: 0 0.25em 1.25em 0 rgba(0, 0, 0, 0.25);
+        box-shadow: 0 .25em 1.25em 0 rgba(0, 0, 0, .25);
         content: '';
         display: block;
         height: calc(100% + 2px);
@@ -650,251 +655,247 @@
         pointer-events: none;
         position: absolute;
         top: -1px;
-        transition: opacity 0.25s ease, box-shadow 0.25s ease, transform 0.25s ease;
-        width: calc(100% + 2px);
+        transition: opacity .25s ease, box-shadow .25s ease, transform .25s ease;
+        width: calc(100% + 2px)
       }
 
       .icc-credits span:hover {
-        text-transform: none !important;
+        text-transform: none !important
       }
 
       .icc-credits span:hover a {
-        color: #ffffff !important;
-        transform: scale(1.1) translateY(-0.05rem);
+        color: #fff !important;
+        transform: scale(1.1) translateY(-.05rem)
       }
 
       .icc-credits span:hover a:before {
-        opacity: 0;
+        opacity: 0
       }
 
       .icc-credits span:hover a:after {
-        opacity: 0;
+        opacity: 0
       }
 
       .icc-credits span:hover::after {
         opacity: 1;
-        transform: scale(1.1) translateY(-0.05rem);
+        transform: scale(1.1) translateY(-.05rem)
       }
 
       #credits span {
-        color: rgba(255, 255, 255, 0.498);
-        margin-top: 0.75rem !important;
+        color: rgba(255, 255, 255, .498);
+        margin-top: .75rem !important
       }
 
-      @media (max-width: 1920px) {}
-
-      @media (max-width: 1680px) {
+      @media (max-width:1680px) {
         html {
-          font-size: 13pt;
+          font-size: 13pt
         }
       }
 
-      @media (max-width: 1280px) {
+      @media (max-width:1280px) {
         html {
-          font-size: 13pt;
+          font-size: 13pt
         }
       }
 
-      @media (max-width: 1024px) {}
-
-      @media (max-width: 980px) {
+      @media (max-width:980px) {
         html {
-          font-size: 11pt;
+          font-size: 11pt
         }
       }
 
-      @media (max-width: 736px) {
+      @media (max-width:736px) {
         html {
-          font-size: 11pt;
+          font-size: 11pt
         }
 
         #main {
           --padding-horizontal: 2rem;
-          --padding-vertical: 3rem;
+          --padding-vertical: 3rem
         }
 
         #main>.inner {
-          --spacing: 0.75rem;
+          --spacing: 0.75rem
         }
 
         #main>.inner>.full {
           margin-left: calc(-2rem);
-          max-width: calc(100% + 4rem + 0.4725px);
-          width: calc(100% + 4rem + 0.4725px);
+          max-width: calc(100% + 4rem + .4725px);
+          width: calc(100% + 4rem + .4725px)
         }
 
         #main>.inner>.full:first-child {
-          margin-top: -3rem !important;
+          margin-top: -3rem !important
         }
 
         #main>.inner>.full:last-child {
-          margin-bottom: -3rem !important;
+          margin-bottom: -3rem !important
         }
 
         #main>.inner>.full.screen {
-          margin-left: -50vw;
+          margin-left: -50vw
         }
 
         #text01 {
-          letter-spacing: 0rem;
+          letter-spacing: 0;
           width: 100%;
           font-size: 1em;
-          line-height: 1.5;
+          line-height: 1.5
         }
 
         #buttons01 li a {
-          letter-spacing: 0rem;
-          font-size: 1em;
+          letter-spacing: 0;
+          font-size: 1em
         }
 
         #buttons01 li a svg {
-          width: 1em;
+          width: 1em
         }
 
         #buttons02 li a {
-          letter-spacing: 0rem;
-          font-size: 1em;
+          letter-spacing: 0;
+          font-size: 1em
         }
 
         #buttons02 li a svg {
-          width: 1em;
+          width: 1em
         }
 
         #buttons03 li a {
-          letter-spacing: 0rem;
-          font-size: 1em;
+          letter-spacing: 0;
+          font-size: 1em
         }
 
         #buttons03 li a svg {
-          width: 1em;
+          width: 1em
         }
 
         #buttons05 li a {
-          letter-spacing: 0rem;
-          font-size: 1em;
+          letter-spacing: 0;
+          font-size: 1em
         }
 
         #buttons05 li a svg {
-          width: 1em;
+          width: 1em
         }
 
         #buttons04 li a {
-          letter-spacing: 0rem;
-          font-size: 1em;
+          letter-spacing: 0;
+          font-size: 1em
         }
       }
 
-      @media (max-width: 480px) {
+      @media (max-width:480px) {
         #main>.inner {
-          --spacing: 0.65625rem;
+          --spacing: 0.65625rem
         }
 
         #buttons01 {
           flex-direction: column;
-          flex-wrap: nowrap;
+          flex-wrap: nowrap
         }
 
         #buttons01 li a {
           display: inline-flex;
           max-width: 32rem;
-          width: 100%;
+          width: 100%
         }
 
         #buttons02 {
           flex-direction: column;
-          flex-wrap: nowrap;
+          flex-wrap: nowrap
         }
 
         #buttons02 li a {
           display: inline-flex;
           max-width: 32rem;
-          width: 100%;
+          width: 100%
         }
 
         #buttons03 {
           flex-direction: column;
-          flex-wrap: nowrap;
+          flex-wrap: nowrap
         }
 
         #buttons03 li a {
           display: inline-flex;
           max-width: 32rem;
-          width: 100%;
+          width: 100%
         }
 
         #buttons05 {
           flex-direction: column;
-          flex-wrap: nowrap;
+          flex-wrap: nowrap
         }
 
         #buttons05 li a {
           display: inline-flex;
           max-width: 32rem;
-          width: 100%;
+          width: 100%
         }
 
         #buttons04 {
           flex-direction: column;
-          flex-wrap: nowrap;
+          flex-wrap: nowrap
         }
 
         #buttons04 li a {
           display: inline-flex;
           max-width: 32rem;
-          width: 100%;
+          width: 100%
         }
       }
 
-      @media (max-width: 360px) {
+      @media (max-width:360px) {
         #main {
           --padding-horizontal: 1.5rem;
-          --padding-vertical: 2.25rem;
+          --padding-vertical: 2.25rem
         }
 
         #main>.inner {
-          --spacing: 0.5625rem;
+          --spacing: 0.5625rem
         }
 
         #main>.inner>.full {
           margin-left: calc(-1.5rem);
-          max-width: calc(100% + 3rem + 0.4725px);
-          width: calc(100% + 3rem + 0.4725px);
+          max-width: calc(100% + 3rem + .4725px);
+          width: calc(100% + 3rem + .4725px)
         }
 
         #main>.inner>.full:first-child {
-          margin-top: -2.25rem !important;
+          margin-top: -2.25rem !important
         }
 
         #main>.inner>.full:last-child {
-          margin-bottom: -2.25rem !important;
+          margin-bottom: -2.25rem !important
         }
 
         #main>.inner>.full.screen {
-          margin-left: -50vw;
+          margin-left: -50vw
         }
 
         #text01 {
-          font-size: 1em;
+          font-size: 1em
         }
 
         #buttons01 {
-          gap: 0.5625rem;
+          gap: .5625rem
         }
 
         #buttons02 {
-          gap: 0.5625rem;
+          gap: .5625rem
         }
 
         #buttons03 {
-          gap: 0.5625rem;
+          gap: .5625rem
         }
 
         #buttons05 {
-          gap: 0.5625rem;
+          gap: .5625rem
         }
 
         #buttons04 {
-          gap: 0.5625rem;
+          gap: .5625rem
         }
       }
     </style>
